@@ -1,0 +1,212 @@
+h1 {
+  color: brown;
+  font-size: 24px;
+  text-align: center;
+}
+
+body {
+  font-size: 24px;
+}
+
+/* загальний селектор */
+* {
+  margin: 0;
+  padding: 0;
+  color: blue;
+}
+
+/* селектор тега або елемента */
+h2 {
+  color: tomato;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+section {
+  margin: 12px;
+}
+
+/* селектор класу */
+.text {
+  color: aqua;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.alarm {
+  font-size: 16px;
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+}
+
+.success {
+  color: green;
+}
+
+.warning {
+  color: orange;
+}
+
+.negative {
+  color: red;
+}
+
+/* селектор ідентифікатора */
+#title {
+  /* якісь властивості */
+}
+
+/* селектор нащадка */
+.menu a {
+  color: tomato;
+}
+
+/* селектор дитини */
+.main-menu > li {
+  color: blueviolet;
+}
+
+.submenu a {
+  color: teal;
+}
+
+/* селектор атрибуту */
+a[title] {
+  text-transform: uppercase;
+}
+
+a[title="title facebook"] {
+  color: blue;
+}
+
+/* селектор сусіда/сестри/сестринський */
+.secondary-text + p {
+  color: red;
+}
+
+/* псевдо-класи */
+/* :hover */
+
+.link:hover {
+  color: red;
+}
+
+.link:active {
+  color: teal;
+}
+
+.link:visited {
+  color: brown;
+}
+
+.link:focus {
+  color: green;
+}
+
+/* Курсор */
+.link {
+  cursor: pointer;
+  /* cursor: none; */
+}
+
+.primary-text {
+  background-color: teal;
+}
+
+/* color */
+/* hex - format hexadecimal */
+/* 0-9, a-f/A-F */
+.primary-text {
+  /* color: #rrggbb; */
+  color: #fff;
+}
+
+/* rgb - red green blue - 0 - 255 || 0% - 100% */
+.primary-text {
+  color: rgb(0, 255, 0);
+  color: rgb(0%, 100%, 0%);
+}
+
+/* rgba - ... alpha - 0-1|| 0% - 100% */
+.primary-text {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.card {
+    /* 10 */
+}
+
+.card > p {
+    /* 10 + 1 = 11 */
+}
+
+#main {
+    /* 100 */
+}
+
+#main .link {
+    /* 110 */
+}
+
+.card > .description {
+    color: #000;
+    /* 20 */
+}
+
+.description {
+    color: aquamarine;
+    /* 10 */
+}
+
+.card {
+
+}
+
+.card p {
+
+}
+
+.box {
+  color: teal;
+}
+
+a {
+  color: currentColor;
+  /* color: inherit; */
+}
+
+html {
+  color: #212121;
+}
+
+
+/* css змінні */
+:root {
+  --main-color2: #805c00;
+}
+/* variable - змінна */
+.contact-title {
+  background-color: var(--main-color2);
+}
+
+.contact-text {
+  background-color: var(--main-color, orange);
+}
+
+.contact-link {
+  background-color: var(--main-color);
+}
