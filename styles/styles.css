@@ -1,0 +1,57 @@
+.link {
+    text-decoration: line-through;
+    /* none | underline */
+}
+
+.title {
+    text-transform: capitalize;
+}
+
+body {
+    /* text-align: justify; */
+    text-indent: 20px;
+    line-height: 1.36;
+}
+
+.text span {
+    letter-spacing: 12px;
+}
+
+.text {
+    word-spacing: 12px;
+}
+
+.subtitle {
+    text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
+    font-weight: 900;
+}
+
+.poem {
+    white-space: pre-wrap;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.main-text {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first::first-letter {
+    text-transform: uppercase;
+    color: red;
+    font-size: 24px;
+}
+
+.first::selection {
+    background-color: #000;
+    color: #fff;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
