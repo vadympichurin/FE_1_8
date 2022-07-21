@@ -1,0 +1,52 @@
+.header {
+  /* background-color: tomato; */
+}
+
+.header-wrapper {
+  font-family: var(--montserrat);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1210px;
+  margin: 0 auto;
+}
+
+.logo {
+}
+
+.logo-link {
+  color: var(--aqua-color);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.23;
+}
+
+.menu {
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-list-item {
+  margin-right: 55px;
+}
+
+.menu-list-item:last-child {
+  margin-right: 0;
+}
+
+.menu-item-link {
+  color: var(--aqua-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  text-transform: uppercase;
+}
+
+.menu-item-link:hover {
+  color: var(--main-hover-color);
+  border-bottom: 3px solid var(--main-hover-color);
+  padding-bottom: 10px;
+}
